@@ -4,6 +4,26 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
+    postcssOptions: {
+      compile: {
+        extension: 'scss',
+        enabled: true,
+        parser: require('postcss-scss'),
+        plugins: [
+          {
+            module: require('@csstools/postcss-sass'),
+            options: {
+              includePaths: [
+                'app',
+                'app/styles',
+                'ember-cli-styles-example',
+                'ember-cli-styles-example/components',
+              ],
+            },
+          },
+        ],
+      },
+    },
     // Add options here
   });
 
