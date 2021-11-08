@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'namespace-style-testt',
+    modulePrefix: 'ember-cli-styles-example',
     environment,
     rootURL: '/',
     locationType: 'auto',

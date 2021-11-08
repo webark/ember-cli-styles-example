@@ -1,5 +1,5 @@
-import Application from 'namespace-style-testt/app';
-import config from 'namespace-style-testt/config/environment';
+import Application from 'ember-cli-styles-example/app';
+import config from 'ember-cli-styles-example/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

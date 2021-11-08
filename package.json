@@ -1,8 +1,8 @@
 {
-  "name": "namespace-style-testt",
+  "name": "ember-cli-styles-example",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for namespace-style-testt goes here",
+  "description": "Small description for ember-cli-styles-example goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
